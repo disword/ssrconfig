@@ -1,0 +1,46 @@
+html {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    color: #404040;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+// 兼容宽屏
+body{
+    max-width: 640px;
+    margin: 0 auto;
+    .dp-container {
+      max-width: 640px;
+      margin: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+  .v-transfer-dom{
+    .vux-popup-dialog{
+      max-width: 640px;
+      margin: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+  .content-wrap{
+    max-width: 640px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+  }
+  .weui-tabbar{
+    max-width: 640px;
+    margin: 0 auto;
+  }
